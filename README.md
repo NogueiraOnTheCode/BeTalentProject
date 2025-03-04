@@ -24,23 +24,33 @@ INSTRUÇÔES PARA RODAR A APP
 
 1. Clonando o repositório
 Primeiro, clone o repositório para o seu ambiente local:
+
 git clone https://github.com/usuario/nome-do-repositorio.git
 
-2. Instalando as dependências
+3. Instalando as dependências
 Após clonar o repositório, navegue até o diretório do projeto e instale as dependências utilizando o NPM:
+
 cd nome-do-repositorio
+
 npm install
 
-3. Rodando a aplicação
+5. Rodando a aplicação
+6. 
 Agora, execute o seguinte comando para rodar o servidor de desenvolvimento:
+
 npm start
+
 Isso abrirá a aplicação no navegador em http://localhost:3000.
 
 
-4. API de Funcionários 
+7. API de Funcionários
+8. 
 Para funcionar corretamente, o projeto faz uma requisição para uma API local (http://localhost:3000/employees) para obter os dados dos funcionários.
+
 Na pasta onde está o db.json, terá que abrir no terminal e executar com as instruções abaixo indicadas.
+
 Execute o JSON Server para criar a API local:
+
 json-server --watch db.json --port 3000
 
 Agora, a aplicação React estará consumindo os dados da API mockada no localhost:3000.
@@ -79,6 +89,9 @@ ESTRUTURA DO PROJETO
 Tecnologias Utilizadas
 
 - React: Biblioteca JavaScript para construir interfaces de usuário.
+- 
 - Font Awesome: Ícones utilizados na aplicação.
+- 
 - JSON Server: Para simular uma API local.
+- 
 - CSS: Estilização da aplicação (com responsividade).
