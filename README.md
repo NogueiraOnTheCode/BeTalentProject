@@ -91,9 +91,9 @@ ESTRUTURA DO PROJETO
 Tecnologias Utilizadas
 
 - React: Biblioteca JavaScript para construir interfaces de usuário.
-- 
+
 - Font Awesome: Ícones utilizados na aplicação.
-- 
+
 - JSON Server: Para simular uma API local.
-- 
+
 - CSS: Estilização da aplicação (com responsividade).
