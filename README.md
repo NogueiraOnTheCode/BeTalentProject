@@ -1,6 +1,10 @@
 SOBRE O PROJETO
 
-Este projeto foi desenvolvido como parte do teste prático para a vaga na Be Talent. A aplicação exibe uma lista de funcionários, onde é possível pesquisar por nome, cargo e telefone. A interface é responsiva, com um design adaptável tanto para dispositivos móveis quanto para desktop.
+Este projeto foi desenvolvido como parte do teste prático para a vaga na Be Talent. 
+
+A aplicação exibe uma lista de funcionários, onde é possível pesquisar por nome, cargo e telefone. 
+
+A interface é responsiva, com um design adaptável tanto para dispositivos móveis quanto para desktop.
 
 FUNCIONALIDADES
 
