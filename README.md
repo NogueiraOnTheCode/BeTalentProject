@@ -5,8 +5,11 @@ Este projeto foi desenvolvido como parte do teste prático para a vaga na Be Tal
 FUNCIONALIDADES
 
 -Exibição de uma lista de funcionários com foto, nome, cargo, data de admissão e telefone;
+
 -Busca por nome, cargo e telefone com filtro dinâmico;
+
 -Expansão de detalhes de cada funcionário em dispositivos móveis;
+
 -Design responsivo para telas de diferentes tamanhos.
 
 PRÉ-REQUISITOS
