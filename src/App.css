@@ -1,0 +1,219 @@
+/* Estilos gerais */
+body{
+  background-color: #f5f5f5;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  margin: 20px 30px;
+  margin-top: 90px;
+  position: relative;
+}
+
+.title {
+  font-size: 30px;
+  color: #333;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-bar {
+  padding: 8px 12px;
+  font-size: 16px;
+  width: 287px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  padding-right: 30px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 20px;
+  top: 68%;
+  transform: translateY(-50%);
+  pointer-events: none; /* Impede que a lupa bloqueie a interação com o campo de entrada */
+  color: #dfdfdf;
+  font-size: 24px;
+}
+
+.funcionarios-table {
+  width: 100%;
+  border-spacing: 0;
+  margin-top: 30px;
+  max-width: 97%;
+  margin-left: 1.5%;
+  border: 0.5px solid #ddd;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  overflow: hidden;
+}
+
+.funcionarios-table th, .funcionarios-table td {
+  /* padding: 10px 50px; */
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.funcionarios-table th {
+  background-color: #0500FF;
+  color: white;
+  font-size: 16px;
+  padding: 1px 50px;
+}
+
+.funcionarios-table td {
+  border-bottom: 2px solid #ddd;
+  font-size: 16px;
+  color: #1C1C1C;
+  padding: 2px 50px;
+  background-color: white;
+}
+
+.funcionarios-table img {
+  border-radius: 50%;
+}
+
+/* Botão de expandir (seta) */
+.expand-button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #0500FF;
+  padding: 0;
+  font-weight: bold;
+  margin-left: 10px;  /* Adiciona um pequeno espaço entre o nome e a seta */
+}
+
+/* Detalhes do funcionário */
+.employee-details {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.employee-details p {
+  margin: 5px 0;
+}
+
+
+/* Responsividade para telas menores */
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+  }
+
+  .search-bar {
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 5%;
+    padding-right: 30px;
+  }
+
+  .search-icon {
+    position: absolute;
+    right: 40px;
+    top: 80%;
+    transform: translateY(-50%);
+    pointer-events: none; /* Impede que a lupa bloqueie a interação com o campo de entrada */
+    color: #dfdfdf;
+  }
+
+  .funcionarios-table {
+    margin-left: 20px;
+    width: 91%;
+  }
+
+  .funcionarios-table th {
+    position: relative;
+    background-color: #0500FF;
+    color: white;
+    font-size: 12px;
+    padding: 2px 20px;
+  }
+
+  .funcionarios-table td {
+    border-bottom: 2px solid #ddd;
+    font-size: 16px;
+    color: #1C1C1C;
+    padding: 1px 20px;
+    background-color: white;
+  }
+
+  .foto-th {
+    width: 10px;
+  }
+  
+
+  /* Esconde colunas de detalhes em dispositivos móveis */
+  .funcionarios-table th:nth-child(3),
+  .funcionarios-table td:nth-child(3),
+  .funcionarios-table th:nth-child(4),
+  .funcionarios-table td:nth-child(4),
+  .funcionarios-table th:nth-child(5),
+  .funcionarios-table td:nth-child(5) {
+    display: none;
+  }
+
+  /* Alinha a foto e o nome na mesma linha com a seta ao lado */
+  .name-column {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .employee-details {
+    background-color: white;
+  }
+  .employee-details p {
+      display: flex;
+      justify-content: space-between; /* Alinha título à esquerda e resposta à direita */
+      margin: 10px 0; /* Espaçamento entre os itens */
+      font-size: 16px;
+      border-bottom: 1px dashed #686868;
+  }
+
+  /* Células (TH) da tabela com o círculo */
+  .funcionarios-table th {
+    position: relative;
+  }
+
+  .circle-icon {
+    position: absolute;
+    top: 50%;
+    right: 24px;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    display: block;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
