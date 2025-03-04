@@ -23,19 +23,21 @@ Antes de rodar o projeto, certifique-se de que você tem as seguintes ferramenta
 INSTRUÇÔES PARA RODAR A APP
 
 1. Clonando o repositório
+
 Primeiro, clone o repositório para o seu ambiente local:
 
 git clone https://github.com/usuario/nome-do-repositorio.git
 
-3. Instalando as dependências
+2. Instalando as dependências
+
 Após clonar o repositório, navegue até o diretório do projeto e instale as dependências utilizando o NPM:
 
 cd nome-do-repositorio
 
 npm install
 
-5. Rodando a aplicação
-6. 
+3. Rodando a aplicação
+
 Agora, execute o seguinte comando para rodar o servidor de desenvolvimento:
 
 npm start
@@ -43,8 +45,8 @@ npm start
 Isso abrirá a aplicação no navegador em http://localhost:3000.
 
 
-7. API de Funcionários
-8. 
+4. API de Funcionários 
+
 Para funcionar corretamente, o projeto faz uma requisição para uma API local (http://localhost:3000/employees) para obter os dados dos funcionários.
 
 Na pasta onde está o db.json, terá que abrir no terminal e executar com as instruções abaixo indicadas.
